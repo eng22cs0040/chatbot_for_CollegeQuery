@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)http://localhost:5000/bot -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>ChatBot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./ChatBot_files/w3.css">
+<script src="./ChatBot_files/jquery.min.js.download"></script>
+</head><body cz-shortcut-listen="true">
+
+<!-- Sidebar -->
+<div class="w3-sidebar w3-light-black w3-bar-block" style="width:25%">
+  <h3 class="w3-bar-item w3-text-white">Menu</h3>
+  <a href="http://localhost:5000/home" class="w3-bar-item w3-button">Home</a>
+  <a href="http://localhost:5000/bot" class="w3-bar-item w3-button">Ask to CollegeBot</a>
+  <a href="http://localhost:5000/unanswered" class="w3-bar-item w3-button">Unanswered Questions</a>
+  <a href="http://localhost:5000/user" class="w3-bar-item w3-button">User's List</a>
+  <a href="http://localhost:5000/feedback" class="w3-bar-item w3-button">Feedback</a>
+  <a href="http://localhost:5000/view_feedback" class="w3-bar-item w3-button">View Feedbacks</a>
+
+</div>
+
+<!-- Page Content -->
+<div style="margin-left:25%">
+
+<div class="w3-container w3-blue">
+  <h1>ChatBot For College Enquiry</h1>
+</div>
+
+
+
+
+  
+    <div class="w3-card-4 w3-margin w3-light-grey" style="width:70%">
+
+      <header class="w3-container w3-blue">
+        <h1>Ask to Bot</h1>
+      </header>
+      <br>
+  <form class="w3-container" action="http://localhost:5000/bot" method="post" enctype="multipart/form-data">
+    <div id="myDATA" class="w3-padding w3-center" style="display: none;">
+      <input class="botText" type="text" name="name" placeholder="Your Name..."><br><br>
+      <input class="botText" type="text" name="num" placeholder="Your Number..."><br><br>  
+      <button type="submit" name="sub" value="Submit">Submit</button>
+    </div>
+  </form>
+    
+
+    <div id="myDIV" style="display: block;">
+      <div id="chatbox">
+        <p class="botText"><span>Hi I am CollegeBot, How can I help You?</span></p>
+      <p class="userText"><span>bus</span></p><br><p class="botText"><span>The Institute offers bus transportation facility to students comming from distant place within Pune City.</span></p><br><p class="userText"><span>foreign languages</span></p><br><p class="botText"><span>Foreign Language (Japanese and German) training On Campus. </span></p><br><p class="userText"><span>mission</span></p><br><p class="botText"><span>Our mission is to provide, nurture and maintain an environment of high academic excellence, research and entrepreneurship for all aspiring students, which will prepare them to face global challenges maintaining high ethical and moral standards.</span></p><br><p class="userText"><span>vision</span></p><br><p class="botText"><span>Our vision is to to satisfy the aspirations of youth force, who wants to lead nation towards prosperity through techno-economic development.</span></p><br><p class="userText"><span>teachers</span></p><br><p class="botText"><span>The teachers are very well qualified and dedicated.Among 300+ teachers, half of them are PhD degree holders.</span></p><br><p class="userText"><span>internet</span></p><br><p class="botText"><span>Yes, the internet and wi-fi facilities are available.</span></p><br><p class="userText"><span>when to apply for admission</span></p><br><p class="botText"><span>Students can start applying for admissions from the 1st week of April.You can apply with available documents for preliminary registration through CAP rounds.</span></p><br><p class="userText"><span>food quality</span></p><br><p class="botText"><span>The canteen maintenance committee takes care of the quality of food and other related issues.</span></p><br><p class="userText"><span>facilities for physically handicapped</span></p><br><p class="botText"><span>Facilities Available (for Persons with Disability / Physically Handicapped Students /
+Physically Challenged / Differently abled):
+1.Ramp/Rails
+2.Wheel-chair and walker sticks
+3.Lift/ Elevators
+4.Hassle free campus
+5.Connected Buildings
+6.Rest Rooms/ toilets
+7.Mentors.</span></p><br><p class="userText"><span>sports ground</span></p><br><p class="botText"><span>Sports grounds available:
+
+1. Basket ball ground
+2. volley ball ground
+3. Table tennis
+4. State of the art gym
+5. Cricket ground.</span></p><br><p class="userText"><span>proffesional body chapters</span></p><br><p class="botText"><span>Professional Body Chapters:
+ 1.IEEE-Institute of Electrical and Electronics Engineers
+ 2.ISTE-Indian Society for Technical Education
+ 3.ACM- Association for Computing Machinery
+ 4.IEI-Institution of Engineers, India
+ 5.CSI-Computer Society of India
+ 6.ICI
+ 7.IGS
+ 8.ISHRAE- Indian Society of Heating, Refrigerating and Air Conditioning Engineers
+ 9.ISME
+ 10.SAE- Society of Automotive Engineers
+ 11.IETE- Institution of Electronics and Telecommunication Engineers.</span></p><br><p class="userText"><span>indoor activities</span></p><br><p class="botText"><span>A full week is devoted for various indoor activities during annual social gathering called as GANDHARVA.</span></p><br><p class="userText"><span>what is rangbhumi</span></p><br><p class="botText"><span>Rangbhumi is an amalgamation of the artistic elements comprising of acting, dance, music, skectching, painting and various related things.</span></p><br><p class="userText"><span>hiphoppers </span></p><br><p class="botText"><span>Hiphoppers are the college Dance Gladiators, Hiphoppers was formed by our students 12 years ago, a platform for those who considered dance 
+ as a serious form of art and intend to make a difference through dancing.</span></p><br><p class="userText"><span>is thre any counselor </span></p><br><p class="botText"><span>I am sorry! I don't understand you
+Please ask regarding
+1.Courses
+2.Admission
+3.Fees
+etc</span></p><br><p class="userText"><span>counsellor</span></p><br><p class="botText"><span>Counsellor is present in the institute.</span></p><br><p class="userText"><span>documents required for admission</span></p><br><p class="botText"><span>Documents required for admission:
+1.CET/JEE Marks Sheet
+2.12th Marks Sheet
+3.10th Marks Sheet
+4.10th Passing Certificate
+5.Leaving Certificate
+6.Birth Certificate/Domicile
+7.Nationality Certificate
+8.Caste Certificate(if required)	
+9.Caste Validity(if required)
+10.Non Creamy Layer(if required)
+11.Colour Photo - 2(nos)
+12.GAP Certificate (if required).</span></p><br><p class="userText"><span>hostel timings</span></p><br><p class="botText"><span>Hostel timings:	
+Girls (in time)- 9:00 pm
+Boys (in time)- 10:00 pm.</span></p><br><p class="userText"><span>books in library</span></p><br><p class="botText"><span>Collection of Books in library:
+Titles: 9529
+Volumes: 42686
+Journals: 155
+Online Databases: 11
+Newspapers: 17
+CD/DVDs: 160
+Bound Volumes of Journals: 315.</span></p><br><p class="userText"><span>medical service</span></p><br><p class="botText"><span>Library Services:
+
+1.Reference Services
+2.Circulation Services
+3.Online Renewal
+4.Web OPAC (Online Public Access Catalogue)
+5.NPTEL Video Lectures
+6.Syllabus Copies and Question Papers
+7.Book Bank Facility
+8.Inter Library Loan
+9.Newspaper Clippings
+10.CAS Services
+11.SDI Services
+12.Library Alerts
+13.Online Lectures.</span></p><br><p class="userText"><span>medical facilities</span></p><br><p class="botText"><span>Medical service is available.Medical Facilities provided:
+1. First-aid box 
+2. Regular health check up camp
+3. Doctor regularly visits institute and student can consult regarding their health issues
+4. 24 x 7 Hours Ambulance service
+5. Institute has MoU with reputed Multi-Specialty Aditya Bilra Memorial Hospital, Chinchwad, Pune (5 Km from Institute)
+6. Blood donation camps are organized regularly in association with Akshay Blood Bank, Pune and in case of emergency, they provide blood to the faculties, students and their relatives.</span></p><br><p class="userText"><span>labs</span></p><br><p class="userText"><span>labs</span></p><br></div>
+      <div id="userInput">
+        <input id="textInput" type="text" name="msg" placeholder="Message">
+        <input id="buttonInput" type="submit" value="Send">
+        <br><br>
+      </div>
+    </div>
+    </div>
+
+    <form class="w3-container" action="http://localhost:5000/bot" method="post" enctype="multipart/form-data">
+
+    <div class="rate w3-container w3-margin ">
+        
+      <input type="radio" id="star5" name="rate" value="5">
+      <label for="star5" title="text">5 stars</label>
+      <input type="radio" id="star4" name="rate" value="4">
+      <label for="star4" title="text">4 stars</label>
+      <input type="radio" id="star3" name="rate" value="3">
+      <label for="star3" title="text">3 stars</label>
+      <input type="radio" id="star2" name="rate" value="2">
+      <label for="star2" title="text">2 stars</label>
+      <input type="radio" id="star1" name="rate" value="1">
+      <label for="star1" title="text">1 star</label>
+    
+    <br> <br>
+  </div>
+  <div class="w3-container w3-margin">
+    <textarea class="w3-input w3-border w3-white" style="width:50%" rows="7" cols="25" name="suggestions" placeholder="Any Suggestions..."></textarea>
+    <br>
+  
+
+      <input class="w3-btn w3-blue-grey w3-margin" name="sub" type="submit" value="Rate">
+      <br><br>
+  </div>  
+    </form>
+
+
+
+      <script type="text/javascript">
+
+            var state = 1;
+            var x = document.getElementById("myDIV")
+            var y = document.getElementById("myDATA")
+           
+            if(state == 1){
+
+              x.style.display = "block";
+              y.style.display = "none";
+      
+            }
+            else
+            {
+              x.style.display = "none";
+              y.style.display = "block";
+         
+
+            }
+      
+    
+
+ 
+
+
+        function getBotResponse() {
+          var rawText = $("#textInput").val();
+          var userHtml = '<p class="userText"><span>' + rawText + '</span></p>'+'<br>';
+          $("#textInput").val("");
+          $("#chatbox").append(userHtml);
+          document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          $.get("/get", { msg: rawText }).done(function(data) {
+            var botHtml = '<p class="botText"><span>' + data + '</span></p>' +'<br>';
+            $("#chatbox").append(botHtml);
+            document.getElementById('userInput').scrollIntoView({block: 'start', behavior: 'smooth'});
+          });
+        }
+        $("#textInput").keypress(function(e) {
+            if ((e.which == 13) && document.getElementById("textInput").value != "" ){
+                getBotResponse();
+            }
+        });
+        $("#buttonInput").click(function() {
+            if (document.getElementById("textInput").value != "") {
+                getBotResponse();
+            }
+        })
+          
+        
+      </script>
+
+        <!--footer class="w3-container w3-blue">
+          <h5></h5>
+        </footer>
+        
+        </div-->
+
+
+
+  
+
+
+
+<!-- Footer-->
+<div class="w3-container w3-blue">
+  <div class="w3-container w3-cell w3-mobile" style="width:85%">
+    <h5>Developed By</h5>
+    <div class="w3-container w3-cell">
+      <p>Student 1</p>
+      <p>Student 2</p>
+    </div>
+    <div class="w3-container w3-cell">
+      <p>Student 3</p>
+      <p>Student 4</p>
+    </div>
+  </div>
+  <div class="w3-container w3-cell w3-mobile">
+    <h5>Guided By</h5>
+    <p>Guide Name</p>
+  </div>
+  </div>
+
+</div>
+      
+
+</body></html>
